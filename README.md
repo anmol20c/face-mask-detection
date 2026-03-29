@@ -41,39 +41,8 @@ face-mask-detection/
 └── README.md
 ```
 
-## Setup and Installation
-
-### Step 1 — Clone the repository
-```
-git clone https://github.com/AaravJoshi03/face-mask-detection.git
-cd face-mask-detection
-```
-
-### Step 2 — Create virtual environment
-```
-python -m venv venv
-venv\Scripts\activate
-```
-
-### Step 3 — Install dependencies
-```
-pip install -r requirements.txt
-```
-
-### Step 4 — Download the dataset
-Download from [Kaggle](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset) and place images in:
-```
-data/with_mask/
-data/without_mask/
-```
-
-### Step 5 — Download face detector files
-Place these files in the `face_detector/` folder:
-- [deploy.prototxt](https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt)
-- [res10_300x300_ssd_iter_140000.caffemodel](https://raw.githubusercontent.com/opencv/opencv_3rdparty/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel)
 
 ## How to Run
-
 ### Train the model
 ```
 python train.py
