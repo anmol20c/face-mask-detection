@@ -1,3 +1,5 @@
+This project is based on work by AaravJoshi03.  
+Modified and submitted by Anmol.
 # Face Mask Detection
 
 A real-time face mask detection system using MobileNetV2 and OpenCV that detects whether a person is wearing a face mask or not through a webcam feed.
