@@ -98,3 +98,30 @@ This opens your webcam. Press `Q` to quit.
 2. Each detected face is passed through the trained MobileNetV2 model
 3. The model predicts whether the person is wearing a mask or not
 4. A green box appears for mask, red box for no mask with confidence percentage
+## Installation & Setup
+
+1. Clone the repository:
+```
+git clone https://github.com/anmol20c/face-mask-detection.git
+cd face-mask-detection
+```
+
+2. Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+3. Run the training script (optional):
+```
+python train.py
+```
+
+4. Run the detection system:
+```
+python detect.py
+```
+
+## Requirements
+- Python 3.8+
+- OpenCV
+- TensorFlow / Keras
